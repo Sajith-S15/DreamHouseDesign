@@ -1,0 +1,116 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.navbar a{
+ 
+    
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.homeimg{
+    z-index: -1;
+    top: 0;
+    max-width: 100%;
+}
+
+.contentimg{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    
+}
+
+.contentimg h1{
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.5vw;
+    font-weight: bold;
+}
+.contentimg p{
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    
+}
+
+.background{
+
+    width: 100vw;
+    height: 130dvh;
+    background-color: rgba(52, 53, 63, 0.654);
+    position: absolute;
+    top: 0;
+
+}
+.custom-form-container {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    
+  }
+
+  .form-container {
+    position: absolute;
+    width: 20vw;
+    top: 15vw;
+    height: 35dvh;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #1a69d7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  #signin{
+    text-decoration: none;
+    color: blue;
+  }
+
+  label{
+    margin-right: 20vw;
+  }
