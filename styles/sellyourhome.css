@@ -1,0 +1,136 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    box-shadow: 0 4px 12px rgb(111, 112, 112);
+    width: 100%;
+    height: 7dvh;
+    position: absolute;
+}
+
+#logo{
+    width: 150px;
+}
+#lens{
+    width: 50px;
+}
+.search{
+    position: absolute;
+    right: 50%;
+    top: 1.2%;
+    display: flex;
+  
+   
+}
+#lens{
+    position: absolute;
+    right: 2px;
+    width: 24px;
+    top: 10px;
+}
+input{
+    padding: 5.5px;
+    margin-top: 7px;
+
+    
+}
+
+.user{
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 15px;
+    
+}
+
+#userlogo{
+    width: 28px;
+    margin-right: 14px;
+}
+.user label{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.homeimg{
+    height: 140dvh;
+   width: 100%;
+    
+}
+
+.contentimg{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    
+}
+
+.contentimg h1{
+    font-size: 4vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.5vw;
+    font-weight: bold;
+}
+.contentimg p{
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+    font-weight: bold;
+    
+}
+
+.footerlogo{
+    width: 90vw;
+    margin-left: 60px;
+    
+}
+
+.footerlogo img{
+    width: 200px;
+    margin-top: 150px;
+  }
+
+  .mid{
+    margin-left: 70px;
+    word-spacing: 1px;
+  }
+
+
+  .mid h1{
+    word-spacing: 5px;
+    font-size: 2.3vw;
+    letter-spacing: 5px;
+  }
+  .mid p{
+    font-size: 1.5vw;
+    letter-spacing:2px;
+  }
+
+  .offer{
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+  .offer h1{
+    word-spacing: 4px;
+    font-size: 2.3vw;
+    letter-spacing: 3px;
+  }
+
+  .offer input{
+    width: 63vw;
+    font-size: 2vw;
+    padding: 15px;
+  }
+
+  #getoffer{
+    position: relative;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    bottom: 4px;
+    right: 130px;
+}
+    
+  

@@ -1,3 +1,7 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     display: flex;
     box-shadow: 0 6px 15px rgb(111, 112, 112);
@@ -38,26 +42,28 @@
 .search{
     position: absolute;
     right: 50%;
-    top: 0.7%;
+    top: 1.2%;
     display: flex;
   
    
 }
 #lens{
     position: absolute;
-    right: 10px;
-    width: 30px;
-    top: 7px;
+    right: 2px;
+    width: 24px;
+    top: 2px;
 }
 input{
-    padding: 10px;
+    padding: 3.5px;
+    
+    
 }
 
 .user{
     position: absolute;
     display: flex;
     right: 20px;
-    top: 20px;
+    top: 6px;
     
 }
 
@@ -66,7 +72,7 @@ input{
     margin-right: 14px;
 }
 .user label{
-    margin-top: 7px;
+    margin-top: 4px;
     margin-right: 10px;
 }
 
@@ -81,7 +87,12 @@ input{
     color: black;
     text-align: center;
     margin-top: 30px;
-  
+   cursor: pointer;
+   font-weight: bold;
+  }
+  #viewbutton:hover{
+    background-color: aqua;
+    
   }
   
   .footerlogo img{
@@ -101,3 +112,4 @@ input{
     word-spacing: 5px;
     letter-spacing: 2px;
   }
+  
